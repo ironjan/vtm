@@ -4,10 +4,10 @@ apply plugin: 'maven'
 dependencies {
     api project(':vtm')
 
-    api('io.jeo:jeo:0-SNAPSHOT') {
+    api('com.github.ironjan:jeo:0.7') {
         exclude group: 'org.slf4j', module: 'slf4j-jdk14'
     }
-    api('io.jeo:jeo-carto:0-SNAPSHOT') {
+    api('com.github.ironjan.jeo:jeo-carto:3b53c73cb9') {
         exclude group: 'org.slf4j', module: 'slf4j-jdk14'
     }
 }
